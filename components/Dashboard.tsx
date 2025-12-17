@@ -34,7 +34,7 @@ const Dashboard: React.FC<DashboardProps> = ({ habits, todayLogs }) => {
     { name: 'Remaining', value: totalGoals - completedGoals },
   ];
 
-  const COLORS = ['#93C5FD', '#F1F5F9'];
+  const COLORS = ['#8B5CF6', '#EDE9FE'];
 
   return (
     <div className="space-y-6 pb-20 animate-fade-in">
@@ -44,7 +44,7 @@ const Dashboard: React.FC<DashboardProps> = ({ habits, todayLogs }) => {
       </header>
 
       {/* Progress Card */}
-      <div className="bg-gradient-to-br from-blue-50 to-white rounded-3xl p-6 shadow-sm border border-blue-100 flex items-center justify-between">
+      <div className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-3xl p-6 shadow-sm border border-violet-100 flex items-center justify-between">
         <div>
           <h2 className="text-lg font-bold text-slate-800">今日进度</h2>
           <p className="text-slate-500 text-sm mt-1">
