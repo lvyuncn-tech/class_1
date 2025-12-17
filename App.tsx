@@ -70,8 +70,8 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-indigo-100">
-      <main className="max-w-md mx-auto min-h-screen bg-slate-50 relative">
+    <div className="min-h-screen bg-rose-50 text-slate-800 font-sans selection:bg-pink-100">
+      <main className="max-w-md mx-auto min-h-screen bg-rose-50 relative">
         <div className="p-6">
            {renderView()}
         </div>
